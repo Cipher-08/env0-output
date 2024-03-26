@@ -1,5 +1,6 @@
 variable "bucket_name" {
   type = string
+  value = "my-unique-bucket-name-exotic-lobster"
 }
 
 resource "aws_instance" "env0_ex_instance" {
