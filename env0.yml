@@ -1,0 +1,9 @@
+customFlows:
+  - name: Import S3 Bucket Name
+    after: Setup Variables
+    steps:
+      - type: ImportVariable
+        name: Fetch S3 Bucket Name
+        configuration:
+          env0EnvironmentId: "source-environment-id-for-s3-bucket"
+          outputKey: "bucket_name"
