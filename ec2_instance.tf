@@ -1,5 +1,6 @@
 
 variable "s3_bucket_name" {
+  value = "my-unique-bucket-name-exotic-lobster"
   type = string
 }
 
