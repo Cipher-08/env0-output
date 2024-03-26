@@ -10,6 +10,6 @@ resource "aws_instance" "env0_ex_instance" {
 
   tags = {
     Name       = "Env0Instance"
-    "S3 Bucket" = "my-unique-bucket-name-exotic-lobster"
+    "S3 Bucket" = var.s3_bucket_name
   }
 }
