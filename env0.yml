@@ -5,5 +5,5 @@ customFlows:
       - type: ImportVariable
         name: Fetch S3 Bucket Name
         configuration:
-          env0EnvironmentId: "source-environment-id-for-s3-bucket"
+          env0EnvironmentId: "bad38513-fde4-4cf9-972e-a12948b3a2ef"
           outputKey: "bucket_name"
