@@ -1,4 +1,4 @@
-variable "s3_bucket_name" {
+variable "bucket_name" {
   type = string
 }
 
@@ -7,6 +7,6 @@ resource "aws_instance" "env0_ex_instance" {
   instance_type = "t2.micro"
   tags = {
     Name       = "Env0Instance"
-    "S3 Bucket" = var.s3_bucket_name
+    "S3 Bucket" = var.bucket_name
   }
 }
