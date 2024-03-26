@@ -1,6 +1,6 @@
 
 
-resource "aws_instance" "example" {
+resource "aws_instance" "env0-bucket-gi-097843" {
   ami           = "ami-080e1f13689e07408" 
   instance_type = "t2.micro"
 }
